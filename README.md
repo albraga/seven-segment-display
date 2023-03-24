@@ -1,7 +1,21 @@
 # seven-segment-display
 Seven-segment display
 
- [https://albraga.github.io/seven-segment-display](https://albraga.github.io/seven-segment-display)
+[https://albraga.github.io/seven-segment-display](https://albraga.github.io/seven-segment-display)
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Seven-Segment Display</title>
+    </head>
+    <body>
+        <canvas width="150" height="250" style="border:1px solid #d3d3d3;"></canvas>
+        <script type="module" src="/main.js"></script>
+    </body>
+    </html>
 
     let segs = []
     //0
